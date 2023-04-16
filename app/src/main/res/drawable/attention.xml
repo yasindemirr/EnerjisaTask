@@ -1,0 +1,9 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+  <path
+      android:pathData="M32,0C14.35,0 0,14.35 0,32c0,17.65 14.35,32 32,32s32,-14.35 32,-32C64,14.35 49.65,0 32,0zM29.29,11.84c0,-1.5 1.22,-2.7 2.71,-2.7c1.5,0 2.71,1.2 2.71,2.7v26.57c0,1.5 -1.22,2.7 -2.71,2.7c-1.5,0 -2.71,-1.2 -2.71,-2.7V11.84zM32,53.54c-2.15,0 -3.91,-1.72 -3.91,-3.84c0,-2.13 1.75,-3.85 3.91,-3.85c2.15,0 3.91,1.72 3.91,3.85C35.91,51.82 34.15,53.54 32,53.54z"
+      android:fillColor="@color/enerjisa_yellow_two"/>
+</vector>

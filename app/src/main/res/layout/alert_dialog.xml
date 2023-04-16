@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/dimen15"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    android:layout_marginHorizontal="@dimen/dimen30">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen20">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/attention">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Son Ödeme Tarihi"
+            android:fontFamily="@font/hind_semibold"
+            android:layout_marginTop="@dimen/dimen15"
+            android:textStyle="bold"
+            android:id="@+id/lastPayDate"
+            android:textSize="@dimen/dimen20sp"
+            android:textColor="@color/black">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/son_odeme"
+            android:fontFamily="@font/hind_medium"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dimen15"
+            android:id="@+id/lastPayText"
+            android:textSize="@dimen/dimen14sp"
+            android:textColor="@color/black">
+        </TextView>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen30"
+            android:text="Tamam"
+            android:id="@+id/button"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen18sp"
+            android:background="@drawable/goruntule_btn_back"
+            android:textAllCaps="false"
+            android:paddingVertical="@dimen/dimen10">
+
+        </androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

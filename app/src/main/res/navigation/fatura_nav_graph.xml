@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fatura_nav_graph"
+    app:startDestination="@id/invoiceListFragment">
+
+    <fragment
+        android:id="@+id/invoiceListFragment"
+        android:name="com.demir.yasin.ui.InvoiceListFragment"
+        android:label="fragment_invoice_list"
+        tools:layout="@layout/fragment_invoice_list">
+        <action
+            android:id="@+id/invoiceListFragmentToDetail"
+            app:destination="@id/invoiceDetailFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/invoiceDetailFragment"
+        android:name="com.demir.yasin.ui.InvoiceDetailFragment"
+        android:label="fragment_invoice_detail"
+        tools:layout="@layout/fragment_invoice_detail">
+
+        <argument
+            android:name="list"
+            app:argType="com.demir.yasin.model.ListModel" />
+    </fragment>
+</navigation>

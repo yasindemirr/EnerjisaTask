@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Yasin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fatura_bilgisi">Tüm sözleşme hesaplarınıza ait %d adet ödenmemiş fatura bulunmaktadır.</string>
+    <string name="toplam_borc">Toplam Borç:</string>
+    <string name="kullanici_adres_bilgileri">İSTASYON MAH. MEDRESE SK. NO:6/9 MERKEZ TUZLA İSTANBUL</string>
+    <string name="sözlesme_hesap_no">Sözleşme\nHesap Numarası:</string>
+    <string name="vade_tarihi">Vade\nTarihi</string>
+    <string name="odenecek_tutar">Ödenecek\nTutar</string>
+    <string name="secili_sozlesme_fatura_adet">Seçili sözleşme hesabınıza ait %d adet ödenmemiş fatura bulunmaktadır.</string>
+    <string name="son_odeme">Bu fatura %s tarihine kadar ödenmesi gerekmektedir.</string>
+    <string name="dokuman_bilgi">Bu faturaya ait döküman numarası %s’dir. Bu numaraya istinaden işlemlerinizi gerçekleştirebilirsiniz.</string>
+    <string name="TC_request">T.C kimlik numarası 11 haneli olmaldır.</string>
+    <string name="loading">Yükleniyor...</string>
+    <string name="ad_soyad">Adınız Soyadınız</string>
+    <string name="tc_kimlik">T.C Kimlik Numaranız</string>
+    <string name="e_posta">E-Posta Adresiniz</string>
+    <string name="cep_tel">Cep Telefonu Numaranız</string>
+    <string name="warn_tc_dialog">Lütfen geçerli bir T.C kimlik numarası giriniz.</string>
+    <string name="warn_mail_dialog">Lütfen geçerli bir mail adresi giriniz.</string>
+    <string name="warn_tel_no">Lütfen geçerli bir telefon numarası giriniz.</string>
+    <string name="mail_info">osman.kudu@enerjisa.com.tr</string>
+
+</resources>
